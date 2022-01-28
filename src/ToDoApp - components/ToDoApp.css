@@ -1,0 +1,85 @@
+.TaskContainer {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background-color: white;
+    color: rgb(31, 14, 14);
+    border: 2px hotpink solid;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.TaskLine {
+    display: flex;
+    flex-direction: row;
+}
+
+.TaskName {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 6px;
+    border: 2px hotpink solid;
+    margin: 5px 30px 5px 0px;
+    width: 400px;
+    
+}
+
+.RemoveTask {
+    color: white;
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    background-color: hotpink
+}
+
+.RemoveTask:hover {
+    background-color:lightblue;
+}
+
+.TaskName:hover {
+    border-color: lightblue;
+}
+
+.CompletedButton {
+    background-color: none;
+}
+
+.addTask {
+    background-color: white;
+    color: hotpink;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px 30px 5px 0px;
+    width: 400px;
+    border: 2px hotpink solid;
+}
+
+.addButton {
+    background-color: hotpink;
+    color: white;
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+
+.addButton:hover {
+    background-color: lightblue;
+}
+
+::placeholder {
+    color: hotpink;
+  }
+
+
+
